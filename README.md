@@ -36,7 +36,7 @@ Le bouton **Télécharger la copie JPEG** fournit une image contenant l’identi
 
 La cloche **Réceptions** signale les nouvelles copies rendues pendant votre connexion, avec un compteur et une liste. Cliquez une fois sur **Activer le son** pour autoriser la sonnerie dans le navigateur. L’actualisation a lieu toutes les 15 secondes dans l’onglet actif et moins souvent en arrière-plan ; gardez l’espace professeur ouvert. Les copies déjà présentes au moment de la connexion ne déclenchent pas de nouvelle alerte.
 
-À la fin de l’examen, les trois boutons de téléchargement, d’impression et d’export CSV ont été retirés de la page élève. La confirmation de réception et la relecture des réponses restent disponibles.
+À la fin de l’examen, les trois boutons de téléchargement, d’impression et d’export CSV ont été retirés de la page élève. L’écran conserve la confirmation de réception, sans afficher les réponses rendues.
 
 Les statistiques de classe utilisent la dernière copie rendue par chaque élève identifié par son nom, sa classe et son groupe. Elles affichent la moyenne, le minimum, le maximum, la réussite à partir de 10/20, la durée moyenne et la réussite par exercice. Les copies en cours sont comptées séparément et exclues des moyennes. Fermer les entrées n’interrompt pas les examens déjà commencés.
 
