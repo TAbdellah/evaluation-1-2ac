@@ -1,0 +1,1 @@
+window.EVAL1_CONFIG = {"endpoint":"https://xrwtcyliibooudyoovqo.supabase.co/functions/v1/evaluation-1-2ac-api","publishableKey":"sb_publishable_3eVvxtKaHPzZfI4nSMrU-A_iPHGJUWt","version":"eval1-2ac-2026-v2"};
