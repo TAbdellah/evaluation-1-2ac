@@ -49,3 +49,11 @@ Les informations d’identité saisies par l’élève identifient sa copie ; el
 ## Images et polices
 
 Les photographies des périphériques et des exemples proviennent de Wikimedia Commons ; leurs attributions figurent dans les crédits de la page et les fichiers `assets/*_credit.json`. Les composants utilisent les ressources de la séance 2 du cours fourni, avec une photographie Wikimedia Commons pour la carte Wi-Fi. L’image de SMS est une illustration créée pour l’évaluation. Manrope et Noto Sans Arabic sont incluses localement avec leur licence OFL dans `assets/OFL.txt`.
+
+## Supprimer un ou plusieurs élèves
+
+Le bouton **Supprimer** de chaque ligne retire l’élève et toutes ses tentatives. Pour une suppression groupée, cochez les élèves concernés puis cliquez sur **Supprimer la sélection**. La case **Tout sélectionner dans la liste** s’applique uniquement aux élèves visibles selon les filtres de classe, groupe et recherche. Un changement de filtre vide la sélection.
+
+Une fenêtre affiche la liste exacte des élèves, leurs classes et groupes, le nombre de tentatives et les éventuelles tentatives en cours. Cliquez sur **Annuler** pour conserver les données, ou sur **Supprimer définitivement** pour les retirer de la base. La confirmation expire au bout de trois minutes. Si une nouvelle tentative apparaît entre la vérification et la suppression, il faut vérifier à nouveau la sélection.
+
+La suppression est réservée au professeur connecté. Elle retire réellement les réponses et l’historique de ces élèves, y compris les tentatives en cours. Les moyennes et les exports sont actualisés ensuite. Un élève pourra commencer une nouvelle tentative si l’évaluation reste ouverte.
