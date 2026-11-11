@@ -19,7 +19,7 @@ Une copie non commencée reste vide à l’export. Une copie partiellement répo
 
 ## Contenu et barèmes
 
-- Évaluation 1, séances 1 à 3 : information et résultat (4), organisation pratique des fichiers sous Windows (4), stockage et conversions (4), identification des composants du PC (4), nom et catégorie des périphériques (4).
+- Évaluation 1, séances 1 à 3 : information et traitement (4), composants et rôles (6), conversions (2), reconnaissance des huit composants internes (4), nom et catégorie des périphériques (4).
 - Évaluation 2, réseau local : équipements et rôles (6), topologies (3), hostname et adresse IP (3), montage et test d’un réseau mixte simulé (8).
 - Chaque sujet est noté séparément sur 20. Les sujets commencés avant cette mise à jour conservent leurs exercices et leur correction d’origine.
 - Les photos des exercices 1, 4 et 5 peuvent être agrandies. L’exercice 3 présente les conversions au centre de la page.
@@ -41,4 +41,4 @@ L’export modifie uniquement les cellules de notes sélectionnées et les param
 
 Le modèle a été testé sur un classeur de vérification reconstitué d’après la capture. La vérification finale des colonnes se fait lors de l’import de chaque fichier réel.
 
-Les cinq exercices de l’évaluation 1 travaillent cinq objectifs distincts. La reconnaissance des composants ne figure qu’une seule fois. Les nouvelles photographies et leurs attributions sont répertoriées dans `assets/CREDITS-REVISION-3.md`.
+Le sujet précédent est rétabli pour les nouvelles copies. La dernière refonte n’est plus proposée aux nouveaux élèves. Les copies déjà commencées conservent leurs réponses, leur sujet et leur correction. Aucune donnée élève n’est réinitialisée par ce rétablissement.
