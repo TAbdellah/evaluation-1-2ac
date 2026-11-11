@@ -19,9 +19,10 @@ Une copie non commencée reste vide à l’export. Une copie partiellement répo
 
 ## Contenu et barèmes
 
-- Évaluation 1, séances 1 à 3 : information et traitement (4), composants internes (6), conversions (2), système et fichiers (4), pratique dans un explorateur simulé (4).
+- Évaluation 1, séances 1 à 3 : information et traitement (4), composants internes (6), conversions (2), reconnaissance des huit composants internes (4), nom et catégorie des périphériques (4).
 - Évaluation 2, réseau local : équipements et rôles (6), topologies (3), hostname et adresse IP (3), montage et test d’un réseau mixte simulé (8).
-- Chaque sujet est noté séparément sur 20.
+- Chaque sujet est noté séparément sur 20. Les sujets commencés avant cette mise à jour conservent leurs exercices et leur correction d’origine.
+- Les photos des exercices 1, 4 et 5 peuvent être agrandies. L’exercice 3 présente les conversions au centre de la page.
 - Les images du matériel sont issues des ressources de la plateforme. La traduction arabe s’affiche au survol des consignes et des choix concernés.
 
 ## Reprise et sécurité
