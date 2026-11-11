@@ -19,10 +19,10 @@ Une copie non commencée reste vide à l’export. Une copie partiellement répo
 
 ## Contenu et barèmes
 
-- Évaluation 1, séances 1 à 3 : information et traitement (4), composants et rôles (6), conversions (2), reconnaissance des huit composants internes (4), nom et catégorie des périphériques (4).
+- Évaluation 1, séances 1 à 3 : information et traitement (4), composants et rôles (6), conversions (2), association de quatre composants à leur rôle (4), classement de huit images dans le système informatique (4).
 - Évaluation 2, réseau local : équipements et rôles (6), topologies (3), hostname et adresse IP (3), montage et test d’un réseau mixte simulé (8).
 - Chaque sujet est noté séparément sur 20. Les sujets commencés avant cette mise à jour conservent leurs exercices et leur correction d’origine.
-- Les photos des exercices 1, 4 et 5 peuvent être agrandies. L’exercice 3 présente les conversions au centre de la page.
+- Les photos des exercices 1, 4 et 5 peuvent être agrandies. Les images des exercices 4 et 5 proviennent directement du cours c0. Le placement se fait par glissement ou par clic, et reste modifiable avant la remise. L’exercice 3 présente les conversions au centre de la page.
 - Les images du matériel sont issues des ressources de la plateforme. La traduction arabe s’affiche au survol des consignes et des choix concernés.
 
 ## Reprise et sécurité
@@ -41,4 +41,4 @@ L’export modifie uniquement les cellules de notes sélectionnées et les param
 
 Le modèle a été testé sur un classeur de vérification reconstitué d’après la capture. La vérification finale des colonnes se fait lors de l’import de chaque fichier réel.
 
-Le sujet précédent est rétabli pour les nouvelles copies. La dernière refonte n’est plus proposée aux nouveaux élèves. Les copies déjà commencées conservent leurs réponses, leur sujet et leur correction. Aucune donnée élève n’est réinitialisée par ce rétablissement.
+Les exercices 4 et 5 validés sont proposés aux nouvelles copies (version 4). Les exercices 1 à 3 et l’évaluation 2 conservent leur contenu. Les copies déjà commencées gardent leurs réponses, leur sujet, leur chronomètre et leur correction d’origine.
