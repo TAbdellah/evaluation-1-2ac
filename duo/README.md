@@ -10,11 +10,10 @@ Espace professeur : même adresse suivie de `#professeur`.
 2. Ouvrir **Listes XLSX** et sélectionner les fichiers des classes, jusqu’à 15 fichiers à la fois.
 3. Vérifier chaque feuille : classe, colonne du nom, code élève, première ligne et colonnes des notes 1 et 2. Les feuilles sans liste peuvent être décochées.
 4. Valider chaque import. Le fichier original est conservé dans un espace privé.
-5. Donner aux élèves leur **code de classe**, visible dans cet onglet.
-6. Cliquer sur **Ouvrir les évaluations**. La fermeture des nouvelles entrées laisse les copies en cours continuer.
-7. Les élèves choisissent classe et groupe, saisissent le code, sélectionnent leur nom et commencent. Les deux examens se suivent, 15 minutes chacun.
-8. Dans **Élèves & copies**, télécharger les PDF 1 et 2 ou un ZIP des copies. Le filtre classe permet un ZIP par classe.
-9. Dans **Listes XLSX**, télécharger le fichier original avec ses deux colonnes de notes remplies.
+5. Cliquer sur **Ouvrir les évaluations**. La fermeture des nouvelles entrées laisse les copies en cours continuer.
+6. Les élèves choisissent classe et groupe, puis leur nom exact dans les suggestions de la liste importée. Aucun code de classe ni code Massar ne leur est demandé. Les deux examens se suivent, 15 minutes chacun.
+7. Dans **Élèves & copies**, télécharger les PDF 1 et 2 ou un ZIP des copies. Le filtre classe permet un ZIP par classe.
+8. Dans **Listes XLSX**, télécharger le fichier original avec ses deux colonnes de notes remplies.
 
 Une copie non commencée reste vide à l’export. Une copie partiellement répondue est notée sur les réponses enregistrées lorsque son temps se termine. Une copie remise ne peut plus être modifiée par l’élève.
 
@@ -29,7 +28,7 @@ Une copie non commencée reste vide à l’export. Une copie partiellement répo
 
 Le temps est contrôlé par le serveur. Une fermeture du navigateur ne remet pas le chronomètre à zéro. Sur le même navigateur, les dossiers sont conservés individuellement pour pouvoir reprendre après un changement d’élève.
 
-Les noms d’une classe sont accessibles avec son code ; les notes, les classeurs et les rapports nécessitent la connexion professeur. Les réponses sont corrigées sur le serveur. Aucun corrigé complet ni mot de passe professeur n’est intégré à la page publique.
+Les noms exacts des élèves sont proposés après le choix de leur classe. Les codes Massar restent réservés au rapprochement des notes dans le fichier du professeur. Les notes, les classeurs et les rapports nécessitent la connexion professeur. Les réponses sont corrigées sur le serveur. Aucun corrigé complet ni mot de passe professeur n’est intégré à la page publique.
 
 Une connexion Internet est nécessaire pour l’envoi. En cas de coupure, les modifications restent conservées sur le poste et l’application réessaie de les envoyer ; seules les réponses arrivées avant l’échéance sont prises en compte par le serveur.
 
