@@ -20,7 +20,7 @@ Une copie non commencée reste vide à l’export. Une copie partiellement répo
 ## Contenu et barèmes
 
 - Évaluation 1, séances 1 à 3 : information et traitement (4), composants et rôles (6), conversions (2), association de quatre composants à leur rôle (4), classement de huit images dans le système informatique (4).
-- Évaluation 2, réseau local : équipements et rôles (6), topologies (3), hostname et adresse IP (3), montage et test d’un réseau mixte simulé (8).
+- Évaluation 2, réseau local : équipements et rôles (6), topologies (3), hostname et adresse IP (3), montage câblé (3), connexion Wi-Fi du portable et de l’imprimante (2), récupération des deux fichiers et impression simulée (3).
 - Chaque sujet est noté séparément sur 20. Les sujets commencés avant cette mise à jour conservent leurs exercices et leur correction d’origine.
 - Les photos des exercices 1, 4 et 5 peuvent être agrandies. Les images des exercices 4 et 5 proviennent directement du cours c0. Le placement se fait par glissement ou par clic, et reste modifiable avant la remise. L’exercice 3 présente les conversions au centre de la page.
 - Les images du matériel sont issues des ressources de la plateforme. La traduction arabe s’affiche au survol des consignes et des choix concernés.
@@ -42,3 +42,11 @@ L’export modifie uniquement les cellules de notes sélectionnées et les param
 Le modèle a été testé sur un classeur de vérification reconstitué d’après la capture. La vérification finale des colonnes se fait lors de l’import de chaque fichier réel.
 
 Les exercices 4 et 5 validés sont proposés aux nouvelles copies (version 4). Les exercices 1 à 3 et l’évaluation 2 conservent leur contenu. Les copies déjà commencées gardent leurs réponses, leur sujet, leur chronomètre et leur correction d’origine.
+
+## Nouvelle pratique réseau
+
+L’exercice 4 de l’évaluation 2 suit trois étapes : relier PC-1, PC-2 et le point d’accès directement aux ports du switch ; connecter le portable et l’imprimante au Wi-Fi CLUB-2AC ; récupérer texte.txt et photos.jpg dans Documents avec Copier / Coller, puis imprimer l’affiche préparée. Chaque manipulation compte pour un point, soit 8 points.
+
+La mission est simulée dans la page : elle ne modifie pas le réseau de l’ordinateur et n’envoie rien à une imprimante physique. Les manipulations sont sauvegardées, rejouées et corrigées sur le serveur. Les copies réseau déjà commencées conservent leur exercice et leur correction.
+
+Les sources du nouveau module se trouvent dans source/. Le script source/build.mjs reprend le runtime antérieur à un commit vérifié et intègre uniquement le nouveau module, sa prise en charge PDF et le démarrage versionné de l’évaluation 2. Les corrigés et fichiers serveur restent dans la sauvegarde privée du professeur.
