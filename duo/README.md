@@ -50,3 +50,8 @@ L’exercice 4 de l’évaluation 2 comporte deux parties. L’élève branche P
 Les branchements sont simulés dans la page. Les réglages Wi-Fi, l’Explorateur, Copier / Coller et la fenêtre d’impression ne sont plus demandés aux nouvelles copies. Les branchements et les choix sont sauvegardés et corrigés sur le serveur, y compris dans les PDF et les exports de notes. L’évaluation reste sur 20, avec un chronomètre de 15 minutes. Les copies réseau déjà commencées conservent leur exercice et leur correction.
 
 Les sources du nouveau module se trouvent dans source/. Le script source/build.mjs reprend le runtime antérieur à un commit vérifié et intègre uniquement le nouveau module, sa prise en charge PDF et le démarrage versionné de l’évaluation 2. Les corrigés et fichiers serveur restent dans la sauvegarde privée du professeur.
+
+## Réponses obligatoires et suppression des copies
+La remise manuelle exige une réponse à chaque question et une tentative de chaque manipulation. Une réponse erronée reste acceptée. La page indique les éléments manquants et ouvre le premier exercice incomplet. Le serveur vérifie également cette règle. À la fin des 15 minutes, la copie est toujours clôturée automatiquement avec les réponses enregistrées.
+
+Dans « Élèves & copies », le bouton « Supprimer les copies » retire les deux évaluations de l’élève après confirmation. Les cases de sélection permettent aussi une suppression groupée. La liste de classe et les fichiers XLSX originaux sont conservés ; l’élève peut recommencer. Cette action exige une session professeur valide.
