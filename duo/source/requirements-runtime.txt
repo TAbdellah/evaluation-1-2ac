@@ -1,0 +1,20 @@
+function _checkComplete(){
+ const state=_completion(zr,iA);
+ if(!state.missing.length)return true;
+ ri=state.missing[0].exercise;Ng();
+ const notice=document.createElement('div');notice.className='notice error';notice.setAttribute('role','alert');notice.tabIndex=-1;
+ notice.textContent='Réponds à toutes les questions avant de remettre ta copie. Il reste '+state.missing.length+' réponse(s) ou manipulation(s) à compléter. Exercice '+(ri+1)+' : '+state.missing.filter(i=>i.exercise===ri).map(i=>i.label).join(' ; ')+'.';
+ document.querySelector('.main-exercise').prepend(notice);notice.focus();notice.scrollIntoView({block:'start',behavior:'smooth'});return false;
+}
+async function _deleteCopies(button){
+ const ids=button.dataset.deleteCopies?[button.dataset.deleteCopies]:[...ds];
+ const students=ni.students.filter(s=>ids.includes(s.id)&&s.sessionId);
+ if(!students.length){HA('Aucune copie à supprimer dans cette sélection.');return;}
+ const label=students.length===1?students[0].name:students.length+' élèves sélectionnés';
+ if(!await Mg('Supprimer les copies ?', 'Les deux évaluations, les réponses et les notes de '+label+' seront définitivement supprimées. Les noms restent dans les listes de classe et les élèves pourront recommencer.','Supprimer les copies'))return;
+ button.disabled=true;lh=true;
+ try{
+   for(let i=0;i<students.length;i+=100)await ps('delete_copies',{studentIds:students.slice(i,i+100).map(s=>s.id),confirmation:'SUPPRIMER'});
+   ds.clear();HA('Copies supprimées. Les élèves concernés peuvent recommencer.');
+ }finally{lh=false;button.disabled=false;await cc();}
+}
